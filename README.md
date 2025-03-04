@@ -31,7 +31,12 @@ A robust, scalable URL shortening service built with Java and Spring Boot.
    CREATE DATABASE urlshortener;
    ```
 3. Start redis server (if available) else change application properties to use mysql or in-memory database.
-4. Build and run:
+   ```sh
+   //By default application starts for redis and mysql
+   spring.profiles.active=db //mysql profile
+   spring.profiles.active=dev //in-memory database profile
+   ```
+5. Build and run:
    ```sh
    mvn clean install
    ```
