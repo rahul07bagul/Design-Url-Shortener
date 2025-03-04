@@ -13,7 +13,6 @@ import org.springframework.web.servlet.view.RedirectView;
 public class RedirectController {
 
     private final UrlManager urlManager;
-    //private final UrlStatistics urlStatistics;
 
     @Autowired
     public RedirectController(UrlManager urlManager) {
@@ -23,9 +22,6 @@ public class RedirectController {
     @GetMapping("/{shortCode}")
     public RedirectView redirectToOriginalUrl(@PathVariable String shortCode) {
         String longUrl = urlManager.expandUrl(shortCode);
-
-        // Track click statistics
-        //urlStatistics.recordClick(shortCode, request.getRemoteAddr());
 
         RedirectView redirectView = new RedirectView();
         redirectView.setUrl(longUrl);

@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.transaction.annotation.Transactional;
 
-@Service
+@Service("mySQLDatabaseStorage")
 @Profile("db")
 public class DatabaseStorage implements StorageService {
 
