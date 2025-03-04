@@ -30,7 +30,8 @@ A robust, scalable URL shortening service built with Java and Spring Boot.
    mysql -u root -p
    CREATE DATABASE urlshortener;
    ```
-3. Build and run:
+3. Start redis server (if available) else change application properties to use mysql or in-memory database.
+4. Build and run:
    ```sh
    mvn clean install
    ```
