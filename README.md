@@ -63,9 +63,11 @@ A robust, scalable URL shortening service built with Java and Spring Boot.
   ```
 
 ## Configuration Options
-- url.shortener.generator.type: ID generation strategy (base62 or counter)
-- url.shortener.code.length: Length of generated short codes (default: 6)
-- url.shortener.base.url: Base URL for the shortener service
+```sh
+url.shortener.generator.type: ID generation strategy (base62 or counter)
+url.shortener.code.length: Length of generated short codes (default: 6)
+url.shortener.base.url: Base URL for the shortener service
+```
   
 
 
