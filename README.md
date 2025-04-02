@@ -16,7 +16,7 @@ A robust, scalable URL shortening service built with Java and Spring Boot.
 ![HLD](https://github.com/rahul07bagul/URL-shortener/blob/main/assets/Url-shortener-design.png)
 
 ## Class Diagram
-![LLD](https://github.com/rahul07bagul/URL-shortener/blob/main/assets/Url-shortener-class-Page.png)
+![LLD](https://github.com/rahul07bagul/Design-Url-Shortener/blob/main/assets/Url-shortener-class-Page.png)
 
 ## Features
 - Generate short, unique URLs for any valid web address
